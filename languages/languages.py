@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
+# remove this
+# from django.utils.translation import ugettext_lazy as _
+
+# and change it to
 from django.utils.translation import gettext_lazy as _
+
 
 LANGUAGES = (
     ("aa", _(u"Afar")),
